@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.todo {
+  cursor: pointer;
+  border: solid 1px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.todo:hover {
+  box-shadow: 2px 2px black;
+}
+
+.todo:active {
+  box-shadow: none;
+}
+
+.complete {
+  text-decoration: line-through;
+  color:lightgray;
+  border-color:lightgray;
+}
+
+.complete:hover {
+  box-shadow: 2px 2px lightgray;
+}
